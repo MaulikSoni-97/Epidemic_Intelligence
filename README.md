@@ -17,3 +17,12 @@ agian repeat for three other loss function. This way you wiil get three .npy fil
 - Just provide test dataset path to 'test' and run it. :)
 
 ## *Run Stastical methods dirctly by running statistical_methods.ipynb file directly.*
+
+## *Run Bert model by dirctly by running Bert_Method.ipynb file directly.*
+- please note that for bert model please use data which is given in BERT folder and not the one in folder 'DataSet'.
+
+## References:
+- https://github.com/uvipen/Hierarchical-attention-networks-pytorch
+- https://towardsdatascience.com/multi-label-text-classification-with-scikit-learn-30714b7819c5
+- https://towardsdatascience.com/multi-label-text-classification-5c505fdedca8
+- https://github.com/kaushaltrivedi/bert-toxic-comments-multilabel
