@@ -39,7 +39,9 @@ def Bagging(ScoreList,label):
 
     return (ExactMatchAccuracy/len(prediction))
 
+#*************************************************
 test = pd.read_pickle('path to test.pkl')
+#*************************************************
 labels = get_labels(test)
 
 NLL=np.load('path to result of test with NLL loss ,it will in .npy extension')
