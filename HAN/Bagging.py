@@ -1,8 +1,6 @@
 import numpy as np
 import pandas as pd
 
-# test = pd.read_pickle('path to test.pkl')
-
 def get_labels(df):
 
     labels = []
@@ -40,6 +38,9 @@ def Bagging(ScoreList,label):
             ExactMatchAccuracy += 1
 
     return (ExactMatchAccuracy/len(prediction))
+
+test = pd.read_pickle('path to test.pkl')
+labels = get_labels(test)
 
 NLL=np.load('path to result of test with NLL loss ,it will in .npy extension')
 Hg = np.load('path to result of test with Hinge loss ,it will in .npy extension')
