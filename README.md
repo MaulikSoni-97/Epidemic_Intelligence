@@ -19,7 +19,7 @@ agian repeat for three other loss function. This way you wiil get three .npy fil
 ## *Run Stastical methods dirctly by running statistical_methods.ipynb file directly.*
 
 ## *Run Bert model by dirctly by running Bert_Method.ipynb file directly.*
-- please note that for bert model please use data which is given in BERT folder and not the one in folder 'Data'.
+- please specify the path of BERT folder and not the file in DATA_PATH varible in Bert_model ipynb file so it automatically uses the data(some changed) given in BERT folder.
 
 ## References:
 - https://github.com/uvipen/Hierarchical-attention-networks-pytorch
