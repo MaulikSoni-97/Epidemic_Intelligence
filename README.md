@@ -4,7 +4,7 @@
 - second set path to the glove  word2vec text library which you can download from here.http://nlp.stanford.edu/data/glove.twitter.27B.zip.  please take care you choose 100 dimension text file which I have previously set 100D in 'word hidden size'. <br />
 - Third give the path 'saved_path' to save the model. <br />
 - Fourth, there is 'metric_Id' option which is for three different loss function , Negative log likelihood, Hinge an Hinge square loss as 1, 2, 3 number respectively. <br />
-- So for three loss function you have to run the train file three times respectively and you will get three model respectively for three losses. <br />
+- So for three loss function you have to run the train file three times and you will get three models for three losses. <br />
 
 ### 2 Test.py  <br />
 - First set 'pre-trained model' to any one of the path of the model. <br />
